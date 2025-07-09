@@ -99,7 +99,7 @@ const CardList = ({title}: {title: string}) => {
                         <div className="w-12 h-12 rounded-sm relative overflow-hidden">
                             <Image src={item.image} alt={item.title} fill className="object-cover"/>
                         </div>
-                        <CardContent className="flex-1">
+                        <CardContent className="flex-1 p-0">
                             <CardTitle>{item.title}</CardTitle>
                             <Badge variant="secondary">{item.badge}</Badge>
                         </CardContent>

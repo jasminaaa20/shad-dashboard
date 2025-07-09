@@ -13,7 +13,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { SidebarTrigger } from "./sidebar";
+import { SidebarTrigger } from "./ui/sidebar";
 
 const Navbar = () => {
   const {theme, setTheme} = useTheme();

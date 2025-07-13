@@ -1,7 +1,7 @@
 const UserPage = () => {
   return (
-    <div>
-      <h1></h1>
+    <div className="flex items-center justify-center min-h-screen">
+      <h1>User Page</h1>
     </div>
   );
 };
